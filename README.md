@@ -48,16 +48,3 @@ Never point the end-to-end tests at a deployed site. They create experiments and
   `cd backend && uv run python -m scripts.export_openapi`, then `cd frontend && npm run api:types`.
 - `deploy` holds the scripts and the runbook for the hosted deployment.
 
-## Install it for a lab
-
-`docs/deploy.md` covers the two ways a lab runs Wet Lab: on one computer with no server, set up by
-`scripts/setup.sh` and started by `scripts/start.sh`, and on a server inside the institution's network.
-`docs/publish-checklist.md` lists what must hold before the code is published.
-The two scripts run their own Docker Compose project, `wetlab`, on port 5433, so stop the development
-database above before trying them on a development machine.
-
-## Deploy the hosted demo
-
-See `deploy/README.md`. Settings and secrets live in a git-ignored `.env` (start from `.env.example`).
-Run `scripts/check-public.sh` before every push. It fails if any private value from `.env` appears in
-the repository or its history.
