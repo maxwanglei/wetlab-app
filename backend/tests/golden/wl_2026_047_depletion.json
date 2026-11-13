@@ -1,0 +1,1590 @@
+{
+ "with_outlier": {
+  "arms": [
+   {
+    "concentration": null,
+    "concentration_unit": null,
+    "fit": {
+     "clint_app": 49.63520289489948,
+     "clint_app_sd": 12.320419486645642,
+     "clint_u": 55.1502254387772,
+     "fit_line": [
+      [
+       0.0,
+       97.80875344081359
+      ],
+      [
+       60.0,
+       22.064235393741285
+      ]
+     ],
+     "half_life_extrapolated": false,
+     "half_life_min": 27.92966040766092,
+     "k": 0.02481760144744974,
+     "k_se": 0.001993387966278931,
+     "n_excluded": 0,
+     "n_points": 18,
+     "n_replicates": 3,
+     "problem": null,
+     "r_squared": 0.9064335783396349,
+     "t0_backextrapolated": 97.80875344081359,
+     "window_min": [
+      0.0,
+      60.0
+     ]
+    },
+    "inhibition": null,
+    "key": "control",
+    "kind": "control",
+    "label": "Vehicle control",
+    "lot": null,
+    "modulator_id": null,
+    "points": [
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 1,
+      "percent_of_t0": 100.0,
+      "replicate": 1,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 2,
+      "percent_of_t0": 90.26,
+      "replicate": 1,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 3,
+      "percent_of_t0": 70.36,
+      "replicate": 1,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 4,
+      "percent_of_t0": 44.72,
+      "replicate": 1,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 5,
+      "percent_of_t0": 28.0,
+      "replicate": 1,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 6,
+      "percent_of_t0": 18.57,
+      "replicate": 1,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 7,
+      "percent_of_t0": 100.0,
+      "replicate": 2,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 8,
+      "percent_of_t0": 80.85,
+      "replicate": 2,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 9,
+      "percent_of_t0": 64.51,
+      "replicate": 2,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 10,
+      "percent_of_t0": 41.69,
+      "replicate": 2,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 11,
+      "percent_of_t0": 27.95,
+      "replicate": 2,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 12,
+      "percent_of_t0": 17.79,
+      "replicate": 2,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 13,
+      "percent_of_t0": 100.0,
+      "replicate": 3,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 14,
+      "percent_of_t0": 89.95,
+      "replicate": 3,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 15,
+      "percent_of_t0": 69.64,
+      "replicate": 3,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 16,
+      "percent_of_t0": 49.74,
+      "replicate": 3,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 17,
+      "percent_of_t0": 32.02,
+      "replicate": 3,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 18,
+      "percent_of_t0": 41.0,
+      "replicate": 3,
+      "timepoint": 60.0
+     }
+    ],
+    "target_enzyme": null
+   },
+   {
+    "concentration": 1.0,
+    "concentration_unit": "uM",
+    "fit": {
+     "clint_app": 20.164044951715564,
+     "clint_app_sd": 1.9222222945989398,
+     "clint_u": 22.40449439079507,
+     "fit_line": [
+      [
+       0.0,
+       99.72213603705288
+      ],
+      [
+       60.0,
+       54.459991448493575
+      ]
+     ],
+     "half_life_extrapolated": true,
+     "half_life_min": 68.75080691594789,
+     "k": 0.010082022475857782,
+     "k_se": 0.00044923725348233105,
+     "n_excluded": 0,
+     "n_points": 18,
+     "n_replicates": 3,
+     "problem": null,
+     "r_squared": 0.9692110729845895,
+     "t0_backextrapolated": 99.72213603705288,
+     "window_min": [
+      0.0,
+      60.0
+     ]
+    },
+    "inhibition": {
+     "ci_high": 66.68908990768163,
+     "ci_low": 52.06194252221651,
+     "fm_apparent": 0.5937551621494908,
+     "percent": 59.37551621494907,
+     "se": 3.731483716242285,
+     "significant": true
+    },
+    "key": "1",
+    "kind": "inhibitor",
+    "label": "montelukast",
+    "lot": {
+     "expiry_date": "2027-06-30",
+     "id": 2,
+     "lot_number": "MTK-25092",
+     "name": "Montelukast sodium",
+     "valid_at_use": true
+    },
+    "modulator_id": 1,
+    "points": [
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 19,
+      "percent_of_t0": 100.0,
+      "replicate": 1,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 20,
+      "percent_of_t0": 98.34,
+      "replicate": 1,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 21,
+      "percent_of_t0": 85.36,
+      "replicate": 1,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 22,
+      "percent_of_t0": 74.04,
+      "replicate": 1,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 23,
+      "percent_of_t0": 67.71,
+      "replicate": 1,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 24,
+      "percent_of_t0": 57.84,
+      "replicate": 1,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 25,
+      "percent_of_t0": 100.0,
+      "replicate": 2,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 26,
+      "percent_of_t0": 91.36,
+      "replicate": 2,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 27,
+      "percent_of_t0": 83.51,
+      "replicate": 2,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 28,
+      "percent_of_t0": 77.38,
+      "replicate": 2,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 29,
+      "percent_of_t0": 63.82,
+      "replicate": 2,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 30,
+      "percent_of_t0": 52.66,
+      "replicate": 2,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 31,
+      "percent_of_t0": 100.0,
+      "replicate": 3,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 32,
+      "percent_of_t0": 98.12,
+      "replicate": 3,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 33,
+      "percent_of_t0": 85.05,
+      "replicate": 3,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 34,
+      "percent_of_t0": 67.33,
+      "replicate": 3,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 35,
+      "percent_of_t0": 60.79,
+      "replicate": 3,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 36,
+      "percent_of_t0": 53.07,
+      "replicate": 3,
+      "timepoint": 60.0
+     }
+    ],
+    "target_enzyme": "CYP2C8"
+   },
+   {
+    "concentration": 1.0,
+    "concentration_unit": "uM",
+    "fit": {
+     "clint_app": 42.008488546705586,
+     "clint_app_sd": 0.93161061934073,
+     "clint_u": 46.67609838522843,
+     "fit_line": [
+      [
+       0.0,
+       100.56763076120997
+      ],
+      [
+       60.0,
+       28.51914989207323
+      ]
+     ],
+     "half_life_extrapolated": false,
+     "half_life_min": 33.00033895717506,
+     "k": 0.021004244273352794,
+     "k_se": 0.0005782287715553234,
+     "n_excluded": 0,
+     "n_points": 18,
+     "n_replicates": 3,
+     "problem": null,
+     "r_squared": 0.9880196136660826,
+     "t0_backextrapolated": 100.56763076120997,
+     "window_min": [
+      0.0,
+      60.0
+     ]
+    },
+    "inhibition": {
+     "ci_high": 29.45015059351899,
+     "ci_low": 1.2809189030362944,
+     "fm_apparent": 0.15365534748277643,
+     "percent": 15.365534748277643,
+     "se": 7.1861605398563455,
+     "significant": true
+    },
+    "key": "2",
+    "kind": "inhibitor",
+    "label": "ketoconazole",
+    "lot": {
+     "expiry_date": "2026-11-05",
+     "id": 3,
+     "lot_number": "KTZ-25088",
+     "name": "Ketoconazole",
+     "valid_at_use": true
+    },
+    "modulator_id": 2,
+    "points": [
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 37,
+      "percent_of_t0": 100.0,
+      "replicate": 1,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 38,
+      "percent_of_t0": 91.38,
+      "replicate": 1,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 39,
+      "percent_of_t0": 77.18,
+      "replicate": 1,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 40,
+      "percent_of_t0": 54.16,
+      "replicate": 1,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 41,
+      "percent_of_t0": 39.43,
+      "replicate": 1,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 42,
+      "percent_of_t0": 29.55,
+      "replicate": 1,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 43,
+      "percent_of_t0": 100.0,
+      "replicate": 2,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 44,
+      "percent_of_t0": 97.53,
+      "replicate": 2,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 45,
+      "percent_of_t0": 73.77,
+      "replicate": 2,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 46,
+      "percent_of_t0": 57.07,
+      "replicate": 2,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 47,
+      "percent_of_t0": 40.9,
+      "replicate": 2,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 48,
+      "percent_of_t0": 29.34,
+      "replicate": 2,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 49,
+      "percent_of_t0": 100.0,
+      "replicate": 3,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 50,
+      "percent_of_t0": 89.61,
+      "replicate": 3,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 51,
+      "percent_of_t0": 67.07,
+      "replicate": 3,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 52,
+      "percent_of_t0": 48.18,
+      "replicate": 3,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 53,
+      "percent_of_t0": 35.73,
+      "replicate": 3,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 54,
+      "percent_of_t0": 27.97,
+      "replicate": 3,
+      "timepoint": 60.0
+     }
+    ],
+    "target_enzyme": "CYP3A4"
+   },
+   {
+    "concentration": 1.0,
+    "concentration_unit": "uM",
+    "fit": {
+     "clint_app": 54.70362716887117,
+     "clint_app_sd": 1.2610984495387838,
+     "clint_u": 60.78180796541241,
+     "fit_line": [
+      [
+       0.0,
+       96.75624564251596
+      ],
+      [
+       60.0,
+       18.74798104848799
+      ]
+     ],
+     "half_life_extrapolated": false,
+     "half_life_min": 25.34190935530422,
+     "k": 0.027351813584435586,
+     "k_se": 0.0006038834820734989,
+     "n_excluded": 0,
+     "n_points": 18,
+     "n_replicates": 3,
+     "problem": null,
+     "r_squared": 0.9922610865781335,
+     "t0_backextrapolated": 96.75624564251596,
+     "window_min": [
+      0.0,
+      60.0
+     ]
+    },
+    "inhibition": {
+     "ci_high": 7.78245419412174,
+     "ci_low": -28.20515412628027,
+     "fm_apparent": null,
+     "percent": -10.211349966079265,
+     "se": 9.180681023801375,
+     "significant": false
+    },
+    "key": "3",
+    "kind": "selectivity_control",
+    "label": "quinidine",
+    "lot": {
+     "expiry_date": "2027-09-30",
+     "id": 4,
+     "lot_number": "QND-24402",
+     "name": "Quinidine",
+     "valid_at_use": true
+    },
+    "modulator_id": 3,
+    "points": [
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 55,
+      "percent_of_t0": 100.0,
+      "replicate": 1,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 56,
+      "percent_of_t0": 83.13,
+      "replicate": 1,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 57,
+      "percent_of_t0": 59.94,
+      "replicate": 1,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 58,
+      "percent_of_t0": 44.18,
+      "replicate": 1,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 59,
+      "percent_of_t0": 27.51,
+      "replicate": 1,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 60,
+      "percent_of_t0": 19.98,
+      "replicate": 1,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 61,
+      "percent_of_t0": 100.0,
+      "replicate": 2,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 62,
+      "percent_of_t0": 80.37,
+      "replicate": 2,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 63,
+      "percent_of_t0": 63.1,
+      "replicate": 2,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 64,
+      "percent_of_t0": 37.18,
+      "replicate": 2,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 65,
+      "percent_of_t0": 27.04,
+      "replicate": 2,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 66,
+      "percent_of_t0": 18.78,
+      "replicate": 2,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 67,
+      "percent_of_t0": 100.0,
+      "replicate": 3,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 68,
+      "percent_of_t0": 84.17,
+      "replicate": 3,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 69,
+      "percent_of_t0": 68.73,
+      "replicate": 3,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 70,
+      "percent_of_t0": 45.23,
+      "replicate": 3,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 71,
+      "percent_of_t0": 29.69,
+      "replicate": 3,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 72,
+      "percent_of_t0": 18.38,
+      "replicate": 3,
+      "timepoint": 60.0
+     }
+    ],
+    "target_enzyme": "CYP2D6"
+   }
+  ],
+  "experiment_id": 1,
+  "fm_total": 0.7474105096322672,
+  "fm_unassigned": 0.2525894903677328,
+  "fu_inc": 0.9,
+  "method": "Pooled ln-linear least squares per arm with a free intercept. CLint,app = k x 1000 / protein (mg/mL). % inhibition = 100 x (1 - k_inhibited / k_control), SE by the delta method, n.s. when the 95% CI includes 0. Apparent fm = % inhibition / 100 for the inhibitor's target enzyme, assuming complete and selective inhibition.",
+  "problems": [],
+  "protein_mg_per_ml": 0.5
+ },
+ "without_outlier": {
+  "arms": [
+   {
+    "concentration": null,
+    "concentration_unit": null,
+    "fit": {
+     "clint_app": 55.97040916878167,
+     "clint_app_sd": 3.8345377157969995,
+     "clint_u": 62.18934352086852,
+     "fit_line": [
+      [
+       0.0,
+       101.70024134246174
+      ],
+      [
+       60.0,
+       18.971111999424437
+      ]
+     ],
+     "half_life_extrapolated": false,
+     "half_life_min": 24.768344232386223,
+     "k": 0.027985204584390837,
+     "k_se": 0.0006930184505434391,
+     "n_excluded": 1,
+     "n_points": 17,
+     "n_replicates": 3,
+     "problem": null,
+     "r_squared": 0.9908851983517604,
+     "t0_backextrapolated": 101.70024134246174,
+     "window_min": [
+      0.0,
+      60.0
+     ]
+    },
+    "inhibition": null,
+    "key": "control",
+    "kind": "control",
+    "label": "Vehicle control",
+    "lot": null,
+    "modulator_id": null,
+    "points": [
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 1,
+      "percent_of_t0": 100.0,
+      "replicate": 1,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 2,
+      "percent_of_t0": 90.26,
+      "replicate": 1,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 3,
+      "percent_of_t0": 70.36,
+      "replicate": 1,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 4,
+      "percent_of_t0": 44.72,
+      "replicate": 1,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 5,
+      "percent_of_t0": 28.0,
+      "replicate": 1,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 6,
+      "percent_of_t0": 18.57,
+      "replicate": 1,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 7,
+      "percent_of_t0": 100.0,
+      "replicate": 2,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 8,
+      "percent_of_t0": 80.85,
+      "replicate": 2,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 9,
+      "percent_of_t0": 64.51,
+      "replicate": 2,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 10,
+      "percent_of_t0": 41.69,
+      "replicate": 2,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 11,
+      "percent_of_t0": 27.95,
+      "replicate": 2,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 12,
+      "percent_of_t0": 17.79,
+      "replicate": 2,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 13,
+      "percent_of_t0": 100.0,
+      "replicate": 3,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 14,
+      "percent_of_t0": 89.95,
+      "replicate": 3,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 15,
+      "percent_of_t0": 69.64,
+      "replicate": 3,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 16,
+      "percent_of_t0": 49.74,
+      "replicate": 3,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 17,
+      "percent_of_t0": 32.02,
+      "replicate": 3,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": true,
+      "exclusion_reason": null,
+      "measurement_id": 18,
+      "percent_of_t0": 41.0,
+      "replicate": 3,
+      "timepoint": 60.0
+     }
+    ],
+    "target_enzyme": null
+   },
+   {
+    "concentration": 1.0,
+    "concentration_unit": "uM",
+    "fit": {
+     "clint_app": 20.164044951715564,
+     "clint_app_sd": 1.9222222945989398,
+     "clint_u": 22.40449439079507,
+     "fit_line": [
+      [
+       0.0,
+       99.72213603705288
+      ],
+      [
+       60.0,
+       54.459991448493575
+      ]
+     ],
+     "half_life_extrapolated": true,
+     "half_life_min": 68.75080691594789,
+     "k": 0.010082022475857782,
+     "k_se": 0.00044923725348233105,
+     "n_excluded": 0,
+     "n_points": 18,
+     "n_replicates": 3,
+     "problem": null,
+     "r_squared": 0.9692110729845895,
+     "t0_backextrapolated": 99.72213603705288,
+     "window_min": [
+      0.0,
+      60.0
+     ]
+    },
+    "inhibition": {
+     "ci_high": 67.57325298784545,
+     "ci_low": 60.374227649968574,
+     "fm_apparent": 0.6397374031890701,
+     "percent": 63.97374031890701,
+     "se": 1.836519802063168,
+     "significant": true
+    },
+    "key": "1",
+    "kind": "inhibitor",
+    "label": "montelukast",
+    "lot": {
+     "expiry_date": "2027-06-30",
+     "id": 2,
+     "lot_number": "MTK-25092",
+     "name": "Montelukast sodium",
+     "valid_at_use": true
+    },
+    "modulator_id": 1,
+    "points": [
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 19,
+      "percent_of_t0": 100.0,
+      "replicate": 1,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 20,
+      "percent_of_t0": 98.34,
+      "replicate": 1,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 21,
+      "percent_of_t0": 85.36,
+      "replicate": 1,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 22,
+      "percent_of_t0": 74.04,
+      "replicate": 1,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 23,
+      "percent_of_t0": 67.71,
+      "replicate": 1,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 24,
+      "percent_of_t0": 57.84,
+      "replicate": 1,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 25,
+      "percent_of_t0": 100.0,
+      "replicate": 2,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 26,
+      "percent_of_t0": 91.36,
+      "replicate": 2,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 27,
+      "percent_of_t0": 83.51,
+      "replicate": 2,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 28,
+      "percent_of_t0": 77.38,
+      "replicate": 2,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 29,
+      "percent_of_t0": 63.82,
+      "replicate": 2,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 30,
+      "percent_of_t0": 52.66,
+      "replicate": 2,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 31,
+      "percent_of_t0": 100.0,
+      "replicate": 3,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 32,
+      "percent_of_t0": 98.12,
+      "replicate": 3,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 33,
+      "percent_of_t0": 85.05,
+      "replicate": 3,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 34,
+      "percent_of_t0": 67.33,
+      "replicate": 3,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 35,
+      "percent_of_t0": 60.79,
+      "replicate": 3,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 36,
+      "percent_of_t0": 53.07,
+      "replicate": 3,
+      "timepoint": 60.0
+     }
+    ],
+    "target_enzyme": "CYP2C8"
+   },
+   {
+    "concentration": 1.0,
+    "concentration_unit": "uM",
+    "fit": {
+     "clint_app": 42.008488546705586,
+     "clint_app_sd": 0.93161061934073,
+     "clint_u": 46.67609838522843,
+     "fit_line": [
+      [
+       0.0,
+       100.56763076120997
+      ],
+      [
+       60.0,
+       28.51914989207323
+      ]
+     ],
+     "half_life_extrapolated": false,
+     "half_life_min": 33.00033895717506,
+     "k": 0.021004244273352794,
+     "k_se": 0.0005782287715553234,
+     "n_excluded": 0,
+     "n_points": 18,
+     "n_replicates": 3,
+     "problem": null,
+     "r_squared": 0.9880196136660826,
+     "t0_backextrapolated": 100.56763076120997,
+     "window_min": [
+      0.0,
+      60.0
+     ]
+    },
+    "inhibition": {
+     "ci_high": 30.39222385077478,
+     "ci_low": 19.49814082379171,
+     "fm_apparent": 0.24945182337283245,
+     "percent": 24.945182337283246,
+     "se": 2.7791538806106146,
+     "significant": true
+    },
+    "key": "2",
+    "kind": "inhibitor",
+    "label": "ketoconazole",
+    "lot": {
+     "expiry_date": "2026-11-05",
+     "id": 3,
+     "lot_number": "KTZ-25088",
+     "name": "Ketoconazole",
+     "valid_at_use": true
+    },
+    "modulator_id": 2,
+    "points": [
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 37,
+      "percent_of_t0": 100.0,
+      "replicate": 1,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 38,
+      "percent_of_t0": 91.38,
+      "replicate": 1,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 39,
+      "percent_of_t0": 77.18,
+      "replicate": 1,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 40,
+      "percent_of_t0": 54.16,
+      "replicate": 1,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 41,
+      "percent_of_t0": 39.43,
+      "replicate": 1,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 42,
+      "percent_of_t0": 29.55,
+      "replicate": 1,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 43,
+      "percent_of_t0": 100.0,
+      "replicate": 2,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 44,
+      "percent_of_t0": 97.53,
+      "replicate": 2,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 45,
+      "percent_of_t0": 73.77,
+      "replicate": 2,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 46,
+      "percent_of_t0": 57.07,
+      "replicate": 2,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 47,
+      "percent_of_t0": 40.9,
+      "replicate": 2,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 48,
+      "percent_of_t0": 29.34,
+      "replicate": 2,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 49,
+      "percent_of_t0": 100.0,
+      "replicate": 3,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 50,
+      "percent_of_t0": 89.61,
+      "replicate": 3,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 51,
+      "percent_of_t0": 67.07,
+      "replicate": 3,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 52,
+      "percent_of_t0": 48.18,
+      "replicate": 3,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 53,
+      "percent_of_t0": 35.73,
+      "replicate": 3,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 54,
+      "percent_of_t0": 27.97,
+      "replicate": 3,
+      "timepoint": 60.0
+     }
+    ],
+    "target_enzyme": "CYP3A4"
+   },
+   {
+    "concentration": 1.0,
+    "concentration_unit": "uM",
+    "fit": {
+     "clint_app": 54.70362716887117,
+     "clint_app_sd": 1.2610984495387838,
+     "clint_u": 60.78180796541241,
+     "fit_line": [
+      [
+       0.0,
+       96.75624564251596
+      ],
+      [
+       60.0,
+       18.74798104848799
+      ]
+     ],
+     "half_life_extrapolated": false,
+     "half_life_min": 25.34190935530422,
+     "k": 0.027351813584435586,
+     "k_se": 0.0006038834820734989,
+     "n_excluded": 0,
+     "n_points": 18,
+     "n_replicates": 3,
+     "problem": null,
+     "r_squared": 0.9922610865781335,
+     "t0_backextrapolated": 96.75624564251596,
+     "window_min": [
+      0.0,
+      60.0
+     ]
+    },
+    "inhibition": {
+     "ci_high": 8.61866028661837,
+     "ci_low": -4.0920469610289345,
+     "fm_apparent": null,
+     "percent": 2.2633066627947174,
+     "se": 3.2425869423896923,
+     "significant": false
+    },
+    "key": "3",
+    "kind": "selectivity_control",
+    "label": "quinidine",
+    "lot": {
+     "expiry_date": "2027-09-30",
+     "id": 4,
+     "lot_number": "QND-24402",
+     "name": "Quinidine",
+     "valid_at_use": true
+    },
+    "modulator_id": 3,
+    "points": [
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 55,
+      "percent_of_t0": 100.0,
+      "replicate": 1,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 56,
+      "percent_of_t0": 83.13,
+      "replicate": 1,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 57,
+      "percent_of_t0": 59.94,
+      "replicate": 1,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 58,
+      "percent_of_t0": 44.18,
+      "replicate": 1,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 59,
+      "percent_of_t0": 27.51,
+      "replicate": 1,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 60,
+      "percent_of_t0": 19.98,
+      "replicate": 1,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 61,
+      "percent_of_t0": 100.0,
+      "replicate": 2,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 62,
+      "percent_of_t0": 80.37,
+      "replicate": 2,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 63,
+      "percent_of_t0": 63.1,
+      "replicate": 2,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 64,
+      "percent_of_t0": 37.18,
+      "replicate": 2,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 65,
+      "percent_of_t0": 27.04,
+      "replicate": 2,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 66,
+      "percent_of_t0": 18.78,
+      "replicate": 2,
+      "timepoint": 60.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 67,
+      "percent_of_t0": 100.0,
+      "replicate": 3,
+      "timepoint": 0.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 68,
+      "percent_of_t0": 84.17,
+      "replicate": 3,
+      "timepoint": 5.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 69,
+      "percent_of_t0": 68.73,
+      "replicate": 3,
+      "timepoint": 15.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 70,
+      "percent_of_t0": 45.23,
+      "replicate": 3,
+      "timepoint": 30.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 71,
+      "percent_of_t0": 29.69,
+      "replicate": 3,
+      "timepoint": 45.0
+     },
+     {
+      "excluded": false,
+      "exclusion_reason": null,
+      "measurement_id": 72,
+      "percent_of_t0": 18.38,
+      "replicate": 3,
+      "timepoint": 60.0
+     }
+    ],
+    "target_enzyme": "CYP2D6"
+   }
+  ],
+  "experiment_id": 1,
+  "fm_total": 0.8891892265619026,
+  "fm_unassigned": 0.11081077343809742,
+  "fu_inc": 0.9,
+  "method": "Pooled ln-linear least squares per arm with a free intercept. CLint,app = k x 1000 / protein (mg/mL). % inhibition = 100 x (1 - k_inhibited / k_control), SE by the delta method, n.s. when the 95% CI includes 0. Apparent fm = % inhibition / 100 for the inhibitor's target enzyme, assuming complete and selective inhibition.",
+  "problems": [],
+  "protein_mg_per_ml": 0.5
+ }
+}

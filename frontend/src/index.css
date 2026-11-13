@@ -1,0 +1,166 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/red-hat-text/wght.css";
+
+@theme inline {
+  --font-sans: "Red Hat Text Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-heading: var(--font-sans);
+
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-tape: var(--tape);
+  --color-ballpoint: var(--ballpoint);
+  --color-scarlet: var(--scarlet);
+  --color-carolina: var(--carolina);
+  --color-carolina-tint: var(--carolina-tint);
+
+  --color-good-bg: #e6f4ea;
+  --color-good-fg: #1e6b34;
+  --color-good-line: #bfe0c9;
+  --color-warning-bg: #fff3cd;
+  --color-warning-fg: #6f4b00;
+  --color-warning-line: #ecd083;
+  --color-serious-bg: #fdebdf;
+  --color-serious-fg: #8c3a0f;
+  --color-serious-line: #f0c2a3;
+  --color-critical-bg: #fce6e6;
+  --color-critical-fg: #a32626;
+  --color-critical-line: #efbaba;
+  --color-progress-bg: #e6f0fa;
+  --color-progress-fg: #1d5f99;
+  --color-progress-line: #bcd7ef;
+  --color-neutral-bg: #eef1f3;
+  --color-neutral-fg: #3c4a5e;
+  --color-neutral-line: #d4dadf;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  color-scheme: light;
+
+  /* Ohio State x UNC-Chapel Hill: UNC navy carries text and primary actions, a deepened Carolina blue
+     carries links and focus (true Carolina blue is too light for text), and Ohio State scarlet marks
+     identity only, never a button or an alert, where red would read as an error. */
+  --paper: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #13294b;
+  --ink-2: #3c4a5e;
+  --ink-3: #586579;
+  --rule: #d8dee5;
+  --rule-strong: #bfc8d1;
+  --tape: #f5d547;
+  --ballpoint: #1d66a6;
+  --scarlet: #ba0c2f;
+  --carolina: #4b9cd3;
+  --carolina-tint: #e8f2fa;
+
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--surface);
+  --card-foreground: var(--ink);
+  --popover: var(--surface);
+  --popover-foreground: var(--ink);
+  --primary: var(--ink);
+  --primary-foreground: #ffffff;
+  --secondary: #e8ecf0;
+  --secondary-foreground: var(--ink);
+  --muted: #eef1f4;
+  --muted-foreground: var(--ink-3);
+  --accent: #e8f2fa;
+  --accent-foreground: var(--ink);
+  --destructive: #b42f2f;
+  --border: var(--rule);
+  --input: var(--rule-strong);
+  --ring: var(--ballpoint);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  a,
+  select,
+  input,
+  textarea,
+  summary {
+    &:focus-visible {
+      outline: 2px solid var(--ballpoint);
+      outline-offset: 2px;
+    }
+  }
+  sup {
+    font-size: 0.7em;
+    line-height: 0;
+  }
+}
+
+@layer components {
+  .value-changed {
+    animation: value-changed 1.8s ease-out;
+    border-radius: 3px;
+  }
+}
+
+@keyframes value-changed {
+  from {
+    background-color: color-mix(in oklch, var(--tape) 75%, transparent);
+    box-shadow: 0 0 0 3px color-mix(in oklch, var(--tape) 75%, transparent);
+  }
+  to {
+    background-color: transparent;
+    box-shadow: 0 0 0 3px transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

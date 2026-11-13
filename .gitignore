@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.md
+docs/
+deploy/
+docs/**/*
+deploy/**/*
+
+# Playwright sign-in state
+frontend/e2e/.auth/
